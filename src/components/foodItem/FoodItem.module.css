@@ -1,0 +1,50 @@
+@media (max-width: 599px) {
+}
+@media (min-width: 600px) {
+  .itemInfo {
+    display: flex;
+    font-size: 16px;
+    margin: 20px 10px;
+    padding: 10px;
+    border: 1px solid #505050;
+  }
+  .details {
+    margin-left: 10px;
+  }
+  .name {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+  }
+  .priceInfo {
+    display: flex;
+    margin: 0px;
+    padding: 5px 0px;
+    align-items: baseline;
+  }
+  .baseprice {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16x;
+    line-height: 25px;
+    margin: 0;
+    margin-right: 10px;
+  }
+  .sellprice {
+    font-style: normal;
+    font-weight: 500;
+    font-size:14px;
+    line-height: 13px;
+    text-decoration-line: line-through;
+    color: #505050;
+    margin: 0;
+  }
+  .button {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 10px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
